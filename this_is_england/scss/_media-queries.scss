@@ -1,0 +1,38 @@
+@media screen and (max-width: 1080px) {
+    .uk-slideshow li div h3 {
+        font-size: 100px
+    }
+
+    nav li {
+        width: 16%;
+    }
+
+}
+@media screen and (max-width: 640px) {
+    .uk-slideshow li div h3 {
+        font-size: 80px
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav.open {
+        display: block;
+    }
+
+    nav li {
+        display: block;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    h1 {
+        display: inline-block;
+    }
+
+    #hambuger {
+        display: inline-block;
+    }
+
+}

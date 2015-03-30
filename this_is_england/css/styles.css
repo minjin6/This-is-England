@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+}
+
+.clearfix:before, .clearfix:after {
+  content:"";
+  display:table;
+}
+
+.clearfix:after{
+  clear:both;
+}
+
+body {
+    font-size: 100%;
+    background: url(../images/1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*---------// Responsive Section //----------*/
+
+.background {
+
+
+ }
+
+/*---------// Responsive Section //----------*/
+
+.constrain {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+/*---------// header section //----------*/
+
+header {
+    background-color: rgba(30,30,30,0.7);
+    height: 60px;
+    width: 100%;
+}
+
+h1 {
+    padding-top: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.4em;
+}
+
+#hambuger {
+    display: none;
+    float: right;
+    margin-top: 20px;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+    clear: both;
+}
+
+.bars {
+    height: 4px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+nav {
+    background-color: rgba(30,30,30,0.7);
+    height: 30px;
+    width: 100%;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    width: 12%;
+    display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 1.1em;
+}
+
+
+/*---------// header section //----------*/
+
+/*---------// Main section   //----------*/
+
+/*---------// Main section   //----------*/
+
+@media screen and (max-width: 1140px) {
+    .uk-slideshow li div h3 { font-size: 140px }
+}
+@media screen and (max-width: 600px) {
+    .uk-slideshow li div h3 { font-size: 80px }
+}
