@@ -396,6 +396,14 @@ body {
   width: 90%; }
 
 /* line 7, ../scss/_layout.scss */
+#about-page {
+  background-image: url(../images/peter.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat; }
+
+/* line 15, ../scss/_layout.scss */
 #stickyHeader {
   width: 100%;
   position: fixed;
@@ -404,12 +412,12 @@ body {
   z-index: 100;
   background-color: rgba(30, 30, 30, 0.7); }
 
-/* line 16, ../scss/_layout.scss */
+/* line 24, ../scss/_layout.scss */
 header {
   padding-bottom: 10px;
   width: 100%; }
 
-/* line 21, ../scss/_layout.scss */
+/* line 29, ../scss/_layout.scss */
 h1 {
   padding-top: 10px;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -418,7 +426,7 @@ h1 {
   text-transform: uppercase;
   font-size: 2.4em; }
 
-/* line 30, ../scss/_layout.scss */
+/* line 38, ../scss/_layout.scss */
 h2 {
   margin-top: 130px;
   margin-bottom: 20px;
@@ -427,7 +435,7 @@ h2 {
   font-size: 1.8em;
   color: #646464; }
 
-/* line 39, ../scss/_layout.scss */
+/* line 47, ../scss/_layout.scss */
 #hambuger {
   display: none;
   float: right;
@@ -437,22 +445,22 @@ h2 {
   cursor: pointer;
   clear: both; }
 
-/* line 49, ../scss/_layout.scss */
+/* line 57, ../scss/_layout.scss */
 .bars {
   height: 4px;
   margin-bottom: 5px;
   background-color: white; }
 
-/* line 55, ../scss/_layout.scss */
+/* line 63, ../scss/_layout.scss */
 nav {
   padding-bottom: 15px;
   width: 100%; }
 
-/* line 60, ../scss/_layout.scss */
+/* line 68, ../scss/_layout.scss */
 nav ul {
   padding: 0; }
 
-/* line 64, ../scss/_layout.scss */
+/* line 72, ../scss/_layout.scss */
 nav li {
   width: 12%;
   display: inline-block;
@@ -460,7 +468,7 @@ nav li {
   color: white;
   font-size: 1.1em; }
 
-/* line 72, ../scss/_layout.scss */
+/* line 80, ../scss/_layout.scss */
 main p {
   width: 300px;
   font-family: 'Open Sans', sans-serif;
@@ -471,7 +479,7 @@ main p {
   margin-bottom: 10px; }
 
 /*------------------ // Interactive Map //---------------------*/
-/* line 85, ../scss/_layout.scss */
+/* line 93, ../scss/_layout.scss */
 #englandMap {
   position: absolute;
   top: 130px;
@@ -480,6 +488,11 @@ main p {
   height: 500px;
   width: 700px; }
 
+/* line 102, ../scss/_layout.scss */
+.rollOver {
+  fill: #464646; }
+
+/*------------------ // Interactive Map //---------------------*/
 @media screen and (max-width: 1080px) {
   /* line 2, ../scss/_media-queries.scss */
   .uk-slideshow li div h3 {

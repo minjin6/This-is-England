@@ -4,6 +4,14 @@
     width: 90%;
 }
 
+#about-page {
+    background-image: url(../images/peter.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
 #stickyHeader {
     width: 100%;
     position: fixed;
@@ -90,3 +98,9 @@ main p {
     height: 500px;
     width: 700px;
 }
+
+.rollOver {
+    fill: $dark-grey;
+}
+
+/*------------------ // Interactive Map //---------------------*/
