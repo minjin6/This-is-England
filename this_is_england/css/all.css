@@ -469,6 +469,21 @@ nav li {
   font-size: 1.1em; }
 
 /* line 80, ../scss/_layout.scss */
+a:link {
+  color: white;
+  text-decoration: none; }
+
+/* line 85, ../scss/_layout.scss */
+a:hover {
+  color: #ccc;
+  text-decoration: underline; }
+
+/* line 90, ../scss/_layout.scss */
+a:visited {
+  color: white;
+  text-decoration: none; }
+
+/* line 95, ../scss/_layout.scss */
 main p {
   width: 300px;
   font-family: 'Open Sans', sans-serif;
@@ -479,7 +494,7 @@ main p {
   margin-bottom: 10px; }
 
 /*------------------ // Interactive Map //---------------------*/
-/* line 93, ../scss/_layout.scss */
+/* line 108, ../scss/_layout.scss */
 #englandMap {
   position: absolute;
   top: 130px;
@@ -488,7 +503,7 @@ main p {
   height: 500px;
   width: 700px; }
 
-/* line 102, ../scss/_layout.scss */
+/* line 117, ../scss/_layout.scss */
 .rollOver {
   fill: #464646; }
 
