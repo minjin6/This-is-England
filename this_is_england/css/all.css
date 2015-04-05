@@ -504,7 +504,7 @@ main p {
   width: 700px; }
 
 /* line 117, ../scss/_layout.scss */
-.rollOver {
+#london:hover, #eastMidlands:hover, #westMidlands:hover, #southWest:hover, #eastEngland:hover, #southEast:hover, #northEast:hover, #northWest:hover, #yorkshire:hover {
   fill: #464646; }
 
 /*------------------ // Interactive Map //---------------------*/

@@ -114,7 +114,7 @@ main p {
     width: 700px;
 }
 
-.rollOver {
+#london:hover, #eastMidlands:hover, #westMidlands:hover, #southWest:hover, #eastEngland:hover, #southEast:hover, #northEast:hover, #northWest:hover, #yorkshire:hover {
     fill: $dark-grey;
 }
 
